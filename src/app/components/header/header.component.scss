@@ -1,5 +1,17 @@
 header {
   padding: 16px;
-  color: #fff;
   background-color: #333;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+ul > li {
+  padding: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #ff0;
 }
